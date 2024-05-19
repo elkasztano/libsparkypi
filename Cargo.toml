@@ -1,0 +1,26 @@
+[package]
+edition = "2021"
+authors = ["El Kastzano"]
+name = "libsparkypi"
+version = "0.3.0"
+description = "control radio switch sockets and similar devices via linux gpiodev"
+readme = "README.md"
+keywords = [
+    "LPD433",
+    "radio",
+    "automatisation",
+    "Raspberry",
+    "switch socket",
+    "SBC"
+]
+categories = [
+    "encoding",
+    "data-structures",
+    "hardware-support",
+]
+license = "GPL-3.0-only"
+repository = "https://github.com/elkasztano/libsparkypi"
+documentation = "https://docs.rs/libsparkypi"
+
+[dependencies.gpio-cdev]
+version = "0.6.0"
